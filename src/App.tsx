@@ -5,7 +5,7 @@ export function App() {
   return (
     <main className="flex flex-col h-screen max-w-[90rem] mx-auto">
       <section className="flex-1 pt-40 2xl:pt-64 md:pt-28">
-        <div className="flex flex-col w-full gap-4 max-w-[320px] mx-auto rounded-lg p-8 bg-[#FBFFFB]">
+        <div className="flex flex-col w-full gap-4 max-w-[285px] mx-auto rounded-lg px-4 pt-4 pb-9 bg-[#FBFFFB]">
           <img src={qrcode} alt="" className="w-64 h-64 rounded-lg" />
           <div className="flex flex-col gap-4 text-center">
             <strong className="text-xl text-[#7b879d]">Improve your front-end skills by building projects</strong>
